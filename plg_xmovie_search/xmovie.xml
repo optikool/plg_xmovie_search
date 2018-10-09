@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="search" version="3.0" client="site" method="upgrade">
+	<name>plg_search_xmovie</name>
+	<author>Eyenet Designs</author>
+	<creationDate>01-27-2015</creationDate>
+	<copyright>Copyright (C) 2015 Optikool.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>optikool@yahoo.com</authorEmail>
+	<authorUrl>www.optikool.com</authorUrl>
+	<version>1.0</version>
+	<description>Allows Searching of the XMovie Component.</description>
+	<files>
+		<filename plugin="xmovie">xmovie.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">languages/en-GB.plg_search_xmovie.ini</language>
+		<language tag="en-GB">languages/en-GB.plg_search_xmovie.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="search_limit" type="text" size="5" default="50" label="PLG_SEARCH_XMOVIE_SEARCH_LIMIT" description="PLG_SEARCH_XMOVIE_SEARCH_LIMIT_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>
